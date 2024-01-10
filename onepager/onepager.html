@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background:  #E6EBE0;
+}
+
+.header h1 {
+  font-size: 50px;
+  color: #9BC1BC;
+}
+
+h2{
+font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #E6EBE0;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+  color: white;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: white;
+  padding-left: 20px;
+  color: white;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: navy;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: navy;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Walpole High School hockey Playoff recap 2022-2023</h1>
+
+</div>
+
+<div class="topnav">
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#" style="float:right">Link</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>highlights of the playoffs</h2>
+      <h5>Title description, Dec 7, 2017</h5>
+<img src="boys hockey.jpg" height="300px" width="400px" alt="team">
+      <p>the 2022-2023 playoffs where very eventfull for this Walpole team with some of the highlights being  ryan walshes 4 goal game leading the timberwolves to a 9-0 win over somervile in the second round of the playoffs and jason finks 6 goal game against auburn to send walpole to the final four. </p>
+    </div>
+    <div class="card">
+      <h2>A crushing defeat</h2>
+      <img src="hockey loss.jpg"  height=300px width=400px alt="team">
+      <p> the Timberwolves jumped to a early 1-0 lead in the final four but sadly that would be the only good news for the rest of the game as they quickly fell behind 5-1 and it stayed that way till the final buzzer.</p>
+
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Regualr season record</h2>
+<img src="record.png" height="400px" width="400px" alt="record">
+
+    </div>
+    <div class="card">
+      <img src="coach.webp" height="400px" width="400px" alt="coach">
+   
+      <p></p>
+
+    </div>
+    <div class="card">
+     
+      <p></p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+<footer> Shane Walpole High School 2023</footer>
+</div>
+
+</body>
+</html>
